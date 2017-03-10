@@ -13,7 +13,7 @@ var detailCtrl={
     },
     musicList:function(id,callback){
         $.ajax({
-            url:"http://musicapi.duapp.com/api.php?type=url&id="+id,
+            url:"https://musicapi.duapp.com/api.php?type=url&id="+id,
             dataType:"json",
             success:function(data){
                 callback(data.data[0])

@@ -5,7 +5,7 @@
 var homeCtrl={
     getPlayList:function(comeback){
         $.ajax({
-            url:"http://musicapi.duapp.com/api.php?type=topPlayList&cat=%E5%85%A8%E9%83%A8&offset=0&limit=6",
+            url:"https://musicapi.duapp.com/api.php?type=topPlayList&cat=%E5%85%A8%E9%83%A8&offset=0&limit=6",
             dataType:"json",
             success:function(data){
                 if(data.code===200){
