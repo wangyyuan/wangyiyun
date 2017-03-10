@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="css/style.css" rel="stylesheet">
+    <script src=js/jquery-3.1.0.js></script>
+    <script src="js/app.js"></script>
+    <script>
+        (function(){
+            var viewW=document.documentElement.clientWidth;
+            var oHtml=document.documentElement;
+            oHtml.style.fontSize=viewW/3.2+"px"
+        })()
+    </script>
+</head>
+<body>
+<div id="content">
+    <div class="header">
+        <h2>网易云音乐</h2><input type="button" >
+    </div>
+    <div class="nav">
+        <ul>
+            <li class="ac" data_click="home">时下流行</li>
+            <li data_click="gedan">歌单</li>
+            <li data_click="ranking">排行榜</li>
+            <li data_click="hot">热门歌手</li>
+        </ul>
+    </div>
+    <div class="scorll"></div>
+
+</div>
+
+<div id="bot"></div>
+
+</body>
+</html>
